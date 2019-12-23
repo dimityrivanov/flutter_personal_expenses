@@ -1,0 +1,41 @@
+dependencies:
+  cupertino_icons: ^0.1.2
+  flutter:
+    sdk: flutter
+  flutter_realm: ^0.2.2
+  get_it: ^3.0.3
+  intl: ^0.16.0
+  http: ^0.12.0
+  dio: ^3.0.4
+  url_launcher: ^5.2.5
+  qr_code_scanner: ^0.0.12
+description: "A new Flutter application."
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+flutter:
+  assets:
+    - assets/images/waiting.png
+    - assets/images/qr.png
+  fonts:
+    -
+      family: OpenSans
+      fonts:
+        -
+          asset: assets/fonts/OpenSans-Regular.ttf
+        -
+          asset: assets/fonts/OpenSans-Bold.ttf
+          weight: 700
+    -
+      family: Quicksand
+      fonts:
+        -
+          asset: assets/fonts/Quicksand-Regular.ttf
+        -
+          asset: assets/fonts/Quicksand-Bold.ttf
+          weight: 700
+  uses-material-design: true
+name: personal_expenses
+version: 1.0.0+1
